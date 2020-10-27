@@ -1,0 +1,8 @@
+#!/bin/sh
+echo -n $(execlineb -c pwd)">"
+read uh
+touch temp
+echo "$uh" > temp
+execlineb temp
+rm temp
+exesh
